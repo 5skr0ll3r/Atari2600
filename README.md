@@ -4,4 +4,5 @@
 ## Horizontal Positioning:
 `python3 HorizontalPositioning.py`
 ### No requirements to run
+Note: the remainder of the "division" in the script will never be bellow zero 
 [HorizontalPositioning.py](https://github.com/5skr0ll3r/Atari2600/blob/main/HorizontalPositioning.py)
