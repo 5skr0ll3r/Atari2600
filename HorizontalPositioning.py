@@ -15,8 +15,8 @@ def setPositionX(positionX, tiaCycles, fineNum, HDirection, asl):
 	xor = remainder ^ tiaCycles
 	AShiftLeft = xor << asl
 	print('=' * 20)
-	print(f'Normal\nCurrent X Position (with HBlank as offset): {positionX} \nMoving {HDirection}\nRemainder (sbc): {remainder}\n(xor): {xor}\n(asl): {AShiftLeft}\n')
-	print(f'Bin\nCurrent X Position (with HBlank as offset): {bin(positionX)} \nMoving {HDirection}\nRemainder (sbc): {bin(remainder)}\n(xor): {bin(xor)}\n(asl): {bin(AShiftLeft)}\n')
+	print(f'Normal\nCurrent X Position (with HBlank as offset:68): {positionX} \nMoving {HDirection}\nRemainder (sbc): {remainder}\n(xor): {xor}\n(asl): {AShiftLeft}\n')
+	print(f'Bin\nCurrent X Position (with HBlank as offset:68): {bin(positionX)} \nMoving {HDirection}\nRemainder (sbc): {bin(remainder)}\n(xor): {bin(xor)}\n(asl): {bin(AShiftLeft)}\n')
 
 
 def main():
